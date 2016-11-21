@@ -20,6 +20,7 @@ shuffle($final);
 $i = 1;
 foreach($final as $lol)
 {
+$lol = str_replace("&","&amp;",$lol);
 
  
         $rssfeed .= '<item>';
