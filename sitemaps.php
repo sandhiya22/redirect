@@ -15,7 +15,7 @@ foreach($final as $lol)
 {
 
 $lol = str_replace("&","&amp;",$lol);
-$lol = "https://".$_SERVER['HTTP_HOST']."?url=$lol";
+$lol = "https://".$_SERVER['HTTP_HOST']."/red.php?url=$lol";
 echo '
 <url> 
 <loc>'.$lol.'</loc> 
