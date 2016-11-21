@@ -1,5 +1,5 @@
 <?php
-$title = "$_SERVER['HTTP_HOST'] SITE ";
+$title = $_SERVER['HTTP_HOST']." SITE ";
 ?>
 
 <!DOCTYPE html>
@@ -38,7 +38,7 @@ $i=1;
 foreach($final as $lol)
 {
 $rand= rand(22,222222);
-echo '<a  class="btn a'.$rand.'" href="$lol">'.$title.' $i</a><br>';
+echo '<a  class="btn a'.$rand.'" href="'.$lol.'">'.$title.' '.$i.'</a><br>';
 $i++;
 }
 
