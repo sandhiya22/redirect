@@ -24,6 +24,7 @@ echo '
     <description>'.$_SERVER['HTTP_HOST'].' description '.$i.'</description>
   </item>
 ';
+ $i++;
 }
 ?>
  
