@@ -1,9 +1,9 @@
 <?php
 //header('Content-Type: application/xml');
 header('Content-Type: application/rss+xml; charset=utf-8');
-echo '<?xml version="1.0" encoding="utf-8"?>
-<rss version='2.0'>
-<channel>';
+echo '<?xml version="1.0" encoding="utf-8"?>';
+echo "<rss version='2.0'>";
+echo '<channel>';
  
  
 $json = $_GET["json"];
