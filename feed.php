@@ -1,18 +1,3 @@
-
-
-  <title>W3Schools Home Page</title>
-  <link>http://www.w3schools.com</link>
-  <description>Free web building tutorials</description>
-  <item>
-    <title>RSS Tutorial</title>
-    <link>http://www.w3schools.com/xml/xml_rss.asp</link>
-    <description>New RSS tutorial on W3Schools</description>
-  </item>
-
-
-
-
-
 <?php
 header("Content-type: text/xml");
 
