@@ -16,17 +16,14 @@ foreach($final as $lol)
 {
 
 $lol = str_replace("&","&amp;",$lol);
-echo '
-  <item>
+echo '<item>
     <title>'.$_SERVER['HTTP_HOST'].' Link '.$i.'</title>
     <link>'.$lol.'</link>
     <description>'.$_SERVER['HTTP_HOST'].' description '.$i.'</description>
   </item>
-';
+  ';
  $i++;
 }
 ?>
- 
 </channel>
-
 </rss>
