@@ -37,6 +37,7 @@ $i=1;
 
 foreach($final as $lol)
 {
+  $lol = trim($lol);
 $rand= rand(22,222222);
 echo '<a  class="btn a'.$rand.'" href="'.$lol.'">'.$title.' '.$i.'</a><br>';
 $i++;
