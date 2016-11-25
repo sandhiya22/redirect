@@ -20,6 +20,7 @@ shuffle($final);
 $i = 1;
 foreach($final as $lol)
 {
+$lol = trim($lol);
 $lol = str_replace("&","&amp;",$lol);
 $lol = "https://".$_SERVER['HTTP_HOST']."/red.php?url=$lol";
 
